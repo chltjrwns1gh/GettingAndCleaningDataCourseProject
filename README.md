@@ -1,6 +1,7 @@
 # GettingAndCleaningDataCourseProject
 
 [ How this project works ]
+
 Execute 'run_analysis.R' to analyze data in 'UCI HAR Dataset' as given instructions in this URL (https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project).
 It will automatically produce 'result.txt' as a result.
 Because data files are few megabytes(MB), execution of 'run_analysis.R' might take some minutes. Please wait for it.
@@ -16,7 +17,9 @@ Code is executed in this orders.
 
 DONE!!
 
+
 [ What does each file do? ]
+
 1. 'run_analysis.R' : This file performs data preparation and make it to tidy data set which contains average of each variable for each activity and each subject.
 2. 'codebook.md' : This file shows you about (1) where this data originated, (2) what did I do to data(==what does 'run_analysis.R' do)
 3. 'result.txt' : This file is the result of 'run_analysis.R'. 
