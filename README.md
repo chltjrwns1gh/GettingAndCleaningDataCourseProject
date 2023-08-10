@@ -1,5 +1,4 @@
 # GettingAndCleaningDataCourseProject
-https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project
 
 [ How this project works ]
 Execute 'run_analysis.R' to analyze data in 'UCI HAR Dataset' as given instructions in this URL (https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project).
