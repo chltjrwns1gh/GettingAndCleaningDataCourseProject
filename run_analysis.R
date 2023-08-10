@@ -25,7 +25,7 @@ if(!file.exists("./UCI HAR Dataset/merged")){
 }
 
 # Create and each merged(rbind(test, train)) data
-for(index_directory in 1:length(filedirs_test)){
+for(index_directory in 1:3){
     data_temp_test <- read.table(filedirs_test[[index_directory]])
     data_temp_train <- read.table(filedirs_train[[index_directory]])
     data_temp_merged <- rbind(data_temp_test, data_temp_train)
